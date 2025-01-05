@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "ARRAffinity",
+      "value": "a6e48b9e9d2653435be7b61998d8624b44115214104213d6c8b8c526cc56dc70",
+      "domain": ".bpsweb-dev.azurewebsites.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ARRAffinitySameSite",
+      "value": "a6e48b9e9d2653435be7b61998d8624b44115214104213d6c8b8c526cc56dc70",
+      "domain": ".bpsweb-dev.azurewebsites.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}
