@@ -40,5 +40,21 @@ async enterusername (){
     await this.page.fill(this.username, 'DevAccount');
 
 }
+async assertpassword (){
+    await expect(this.page.locator(this.password)).toBeVisible();
+    await expect(this.page.locator(this.password)).toBeEnabled();
+}
+async enterpassword (){
+    await this.page.fill(this.password, 'abcdE123');
+
+}
+
+async assertshowpassword (){
+    await expect(this.page.locator(this.showpassword)).toBeVisible();
+    await expect(this.page.locator(this.showpassword)).toBeEnabled();
+}
+
+
+
 }
 module.exports = LoginPage;
